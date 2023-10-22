@@ -1,0 +1,28 @@
+name: student_repository_using_provider
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.7+4
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  provider: ^6.0.5
+dev_dependencies:
+  hive_generator: ^1.1.1
+  build_runner: ^2.1.5
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+      - assets/man.jpg
